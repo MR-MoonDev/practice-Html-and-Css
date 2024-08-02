@@ -1,0 +1,51 @@
+.box
+{
+   height: 500px ;
+   background-color: cornflowerblue;
+   justify-content: space-around;
+   align-items: center;
+   box-shadow: 10px 30px 10px  black;
+   display:flex ;
+}
+.box > div
+{
+background-color: brown;
+border: 2px solid black;
+width: 100px;
+height: 100px;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+box-shadow:10px 10px 10px  black;
+transition: all 1s, 1s,1s;
+}
+#a:hover
+{
+  width: 120px;
+  height: 120px;
+  background-color: olive;
+  border-radius: 80px;
+
+}
+#b:hover
+{
+   
+  width: 120px;
+  height: 120px;
+  background-color: purple;
+}
+
+#c:hover
+{
+   
+  width: 180px;
+  height: 100px;
+  background-color:chartreuse;
+}
+#d:hover
+{
+   
+  width: 100px;
+  height: 200px;
+  background-color:crimson;
+}

@@ -1,0 +1,48 @@
+ul
+{
+background-color: darkgray;
+}
+.bigbox
+{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+.bigbox > div 
+{ 
+
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+    box-shadow: 2px 10px 20px chartreuse;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 2s;
+}
+#box1:hover
+{
+    transform: perspective(100px) rotateX(270deg) ;
+}#box2:hover
+{
+    transform: perspective(100px) rotatey(270deg) ;
+}#box3:hover
+{
+    transform: perspective(100px) rotatez(270deg) ;
+}#box4:hover
+{    
+   
+    transform: perspective(100px) rotate3d(1,1,1, 270deg);
+}
+#box5:hover
+{
+   transform: perspective(100px) scaleY(2);
+}#box6:hover
+{
+    transform: perspective(100px) rotateX(20deg)rotateY(-60deg)scale3d(1,1,-4) ;
+}

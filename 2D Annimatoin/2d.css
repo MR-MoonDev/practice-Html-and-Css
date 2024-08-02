@@ -1,0 +1,98 @@
+.box
+{
+    background-color: cornflowerblue;
+    height: 600px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.box > div
+{
+    width: 120px;
+    height: 80px;
+    background-color: skyblue;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box1
+{
+    transform: rotate(30deg);
+}
+#box2
+{
+    transform: skewY(60deg);
+}
+#box3{
+    transform: skewx(30deg);
+}
+#box4{
+    transform: skew(20deg,40deg);
+}
+#box5{
+    transform: scaley(2.5);
+}
+.trans
+{
+  background-color: rgba(0, 0, 0, 0.938);
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.trans > div
+{
+     width: 100px;
+     height: 100px;
+     color: chartreuse;
+     border: 2px solid chartreuse;
+     border-radius: 10px;
+     background-color: black;
+     box-shadow: 5px 5px 30px 2px chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     transition: transform 2s;
+}
+#box6:hover
+{
+    transform: scalex(2);
+
+}
+
+#box7:hover
+{
+    transform: skewx(20deg);
+
+}
+
+#box8:hover
+{
+    transform: rotate(360deg)
+
+}
+
+#box9:hover
+{
+    transform: scale(2,3)
+
+}
+
+#box10:hover
+{
+    transform: skew(20deg,20deg)
+
+}
+
+
+
+
+
+
+
+
+
+
